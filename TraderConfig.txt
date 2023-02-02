@@ -58,8 +58,19 @@
 		TacticalBaconCan,		*,		50,		3	
 		UnknownFoodCan,			*,		50,		3
 		
+	<Category> Drinks
+		SodaCan_Cola, 			*,		20, 	1
+		SodaCan_Kvass, 			*,		20, 	1
+		SodaCan_Pipsi, 			*,		20, 	1
+		SodaCan_Spite, 			*,		20, 	1
+		SodaCan_Fronta, 		*,		20, 	1
+		WaterBottle,			*,		50,		2
+		Canteen,				*,		80,		40
+		Vodka,					*,		120,	80
+		
 	<Category> Meat
 		ChickenBreastMeat,		S,		50,		40
+		//RabbitLegMeat,		S,		50,		40
 		GoatSteakMeat,			S,		70,		60
 		SheepSteakMeat,			S,		60,		50
 		PigSteakMeat,			S,		70,		60
@@ -72,42 +83,43 @@
 		Mackerel,				S,		-1,		150
 		
 	<Category> Animal Parts
-		Bone,					*,		-1,		1
-		Lard,					*,		-1,		1
-		Guts,					*,		-1,		1
-		SmallGuts,				*,		-1,		1
-		
-	<Category> Drinks
-		SodaCan_Cola, 			*,		20, 	1
-		SodaCan_Kvass, 			*,		20, 	1
-		SodaCan_Pipsi, 			*,		20, 	1
-		SodaCan_Spite, 			*,		20, 	1
-		SodaCan_Fronta, 		*,		20, 	1
-		WaterBottle,			*,		50,		2
-		Canteen,				*,		80,		40
-		Vodka,					*,		120,	80
+		Bone,					*,		-1,		10
+		Lard,					*,		-1,		40
+		Guts,					*,		-1,		30
+		SmallGuts,				*,		-1,		30
+
+	<Category> Animal Pelts
+		BearPelt,				*,		-1,		7000
+		CowPelt,				*,		-1,		1550
+		DeerPelt,				*,		-1,		1800
+		GoatPelt,				*,		-1,		1000
+		PigPelt,				*,		-1,		1000
+		//RabbitPelt,			*,		-1,		500
+		SheepPelt,				*,		-1,		1000
+		WildboarPelt,			*,		-1,		1500
+		WolfPelt,				*,		-1,		1400
 		
 	<Category> Medical Supplies
 		//Rag,					1,		1,		-1
-		BandageDressing,		2,		3,		1
-		BloodTestKit,			*,		5,		2
+		BandageDressing,		2,		50,		10
+		BloodTestKit,			*,		10,		2
 		//InjectionVial,		*,		5, 		2
-		Thermometer,			*,		5,		2
-		DisinfectantSpray,		*,		80,		5
-		IodineTincture,			*,		80,		5
+		Thermometer,			*,		10,		2
+		DisinfectantSpray,		*,		180,	5
+		IodineTincture,			*,		170,	5
 		//Syringe,				*,		8, 		5
-		Heatpack,				*,		10,		5
-		StartKitIV,				*,		10,		6
+		Heatpack,				*,		20,		10
+		StartKitIV,				*,		30,		6
 		SalineBag,				*,		80,		18
 		BloodBagEmpty,			*,		50,		10
 		FirstAidKit,			*,		90,		20
 		//Defibrillator,		*,		35, 	20
 		
 	<Category> Medications
-		CharcoalTablets,		*,		20,		1
-		DisinfectantAlcohol,	*,		80,		2
-		VitaminBottle,			*,		90,		4
-		TetracyclineAntibiotics,*,		80,		5
+		CharcoalTablets,		*,		20,		10
+		DisinfectantAlcohol,	*,		80,		20
+		VitaminBottle,			*,		90,		45
+		TetracyclineAntibiotics,*,		250,	95
 		PainkillerTablets,		*,		100,	25
 		Epinephrine,			*,		100,	25
 		Morphine,				*,		100,	25
@@ -122,33 +134,33 @@
 		MoneyRuble100,			1,		100,	-1
 
 
-<Trader> Misc Trader	// ID=1
+<Trader> Misc Trader		// ID=1
 	<Category> Tools (small)
-		Screwdriver,			*,		30,		1
-		Wrench,					*,		30,		1
-		SewingKit,				*,		40, 	1
-		Pliers,					*,		40, 	1
-		LeatherSewingKit,		*,		50, 	2
-		Whetstone,				*,		50,		2
+		Screwdriver,			*,		60,		1
+		Wrench,					*,		60,		1
+		SewingKit,				*,		60, 	1
+		Pliers,					*,		300, 	1
+		LeatherSewingKit,		*,		90, 	2
+		Whetstone,				*,		150,	2
 		Hammer,					*,		80,		3
-		Hacksaw,				*,		120,	3
-		HandSaw,				*,		90,		3
-		WeaponCleaningKit,		*,		80, 	3
-		KitchenKnife,			*,		80,		4
-		SteakKnife,				*,		90,		4
-		HuntingKnife,			*,		90,		4
-		FangeKnife,				*,		90,		4
+		Hacksaw,				*,		320,	3
+		HandSaw,				*,		190,	3
+		WeaponCleaningKit,		*,		180, 	3
+		KitchenKnife,			*,		180,	4
+		SteakKnife,				*,		190,	4
+		HuntingKnife,			*,		190,	4
+		FangeKnife,				*,		190,	4
 		CanOpener,				*,		100,	4
-		Compass,				*,		100,	4
-		OrienteeringCompass,	*,		100,	4
-		Hatchet,				*,		100,	4
-		CombatKnife,			*,		100,	5
-		KukriKnife,				*,		100,	5
-		Machete,				*,		120,	6
-		Cleaver,				*,		120,	6
-		CrudeMachete,			*,		120,	6
-		OrientalMachete,		*,		120,	6
-		Sickle,					*,		120,	6
+		Compass,				*,		300,	4
+		OrienteeringCompass,	*,		200,	4
+		Hatchet,				*,		400,	4
+		CombatKnife,			*,		200,	5
+		KukriKnife,				*,		300,	5
+		Machete,				*,		220,	6
+		Cleaver,				*,		220,	6
+		CrudeMachete,			*,		220,	6
+		OrientalMachete,		*,		220,	6
+		Sickle,					*,		220,	6
 		ChernarusMap,			*,		150,	150
 		Lockpick,				*,		200,	90
 		Binoculars,				*,		300,	90		
@@ -215,6 +227,7 @@
 		MetalWire,				*,		150,	6
 		EpoxyPutty,				*,		150,	6
 		DuctTape,				*,		100,	8
+		Blowtorch,				*,		500,	250
 		XmasLights,				*,		250,	10
 		AlarmClock_Blue,		*,		250,	10
 		AlarmClock_Green,		*,		250,	10
@@ -238,6 +251,9 @@
 		HescoBox,				*,		650,	250
 		CombinationLock,		*,		700,	300
 		CombinationLock4,		*,		900,	400
+		PowerGenerator,			*,		3000,	1000
+
+	<Category> Barrels/Containers
 		BarrelHoles_Blue,		*,		800,	300
 		BarrelHoles_Green,		*,		800,	300
 		BarrelHoles_Red,		*,		800,	300
@@ -247,7 +263,8 @@
 		Barrel_Red,				M,		1500,	350
 		Barrel_Yellow,			M,		1500,	350
 		SeaChest,				*,		2000,	400
-		PowerGenerator,			*,		3000,	1000
+
+	<Category> Tents
 		MediumTent,				*,		3000,	500		
 		CarTent,				*,		5000,	700
 		LargeTent,				*,		7000,	1200
@@ -304,7 +321,7 @@
 		Bear_White,				*,		5,		1
 
 		
-<Trader> Weapon Trader	// ID=2
+<Trader> Weapon Trader		// ID=2
 	<Category> Melee	
 		BrassKnuckles_Shiny,	W,		150,	6
 		StunBaton,				W,		150,	9
@@ -380,6 +397,7 @@
 		Scout,					W,		1900,	750
 		Scout_Chernarus,		W,		1900,	750
 		Scout_Livonia,			W,		1900,	750
+		SSG82,					W,		1900,	750
 		
 	<Category> Launchers and Ammo
 		M79,					W,		4000,	1500
@@ -503,6 +521,7 @@
 		Mag_Scout_5Rnd,				M,		220,	110
 		Mag_CZ550_10Rnd,			M,		220,	110
 		Mag_308WinSnaploader_2Rnd,	M,		250,	125
+		Mag_SSG82_5rnd,				M,		140,	70
 		
 	<Category> Handguards
 		MP5_PlasticHndgrd,		*,		100,	50
@@ -569,6 +588,7 @@
 	
 <Trader> Clothing Trader	// ID=4
 	<Category> Glasses
+		EyePatch_Improvised,	*,		17,		8
 		SportGlasses_Orange,	*,		17,		8
 		SportGlasses_Blue,		*,		18,		9
 		SportGlasses_Black,		*,		20,		10
@@ -1200,6 +1220,7 @@
 	<Category> Vehicle Parts
 		HeadlightH7_Box,					*,		50,		15
 		SparkPlug,							*,		500,	200
+		GlowPlug,							*,		850,	300
 		EngineOil,							*,		155,	40
 		CarBattery,							*,		1500,	150
 		TruckBattery,						*,		1800,	300
@@ -1352,6 +1373,18 @@
         Truck_01_Door_2_1_Orange,			*,		500,	180
         Truck_01_Wheel,						*,		600,	120
         Truck_01_WheelDouble,				*,		1000,	200
+		Offroad_02_Door_1_1,				*,		600,	120
+		Offroad_02_Door_1_1_Rust,			*,		600,	120
+		Offroad_02_Door_1_2,				*,		600,	120
+		Offroad_02_Door_1_2_Rust,			*,		600,	120
+		Offroad_02_Door_2_1,				*,		600,	120
+		Offroad_02_Door_2_1_Rust,			*,		600,	120
+		Offroad_02_Door_2_2,				*,		600,	120
+		Offroad_02_Door_2_2_Rust,			*,		600,	120
+		Offroad_02_Hood,					*,		500,	180
+		Offroad_02_Trunk,					*,		500,	180
+		Offroad_02_Trunk_Rust,				*,		500,	180
+		Offroad_02_Wheel,					*,		800,	210
 		
 	<Category> Keys
 		VehicleKeyDuplicate,	K,		2000,	-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
